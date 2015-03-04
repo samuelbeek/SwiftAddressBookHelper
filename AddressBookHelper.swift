@@ -9,8 +9,11 @@
 import AddressBook
 import AddressBookUI
 
+// Usage
+// create a Contact object, add values and then add to AddressBook
 
-class Contact {
+//contact class
+class Contact : NSObject {
     var firstName: String?
     var lastName: String?
     var phoneNumber: String?
