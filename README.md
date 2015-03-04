@@ -15,4 +15,4 @@ Helper Class for AddressBook Usage in Swift
 ## License 
 Do with this whatever you want. 
 
-Follow me on [twitter]('http://twitter.com/samuelbeek')
+Follow me on [Twitter](http://twitter.com/samuelbeek)
