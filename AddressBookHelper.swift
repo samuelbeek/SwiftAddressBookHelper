@@ -71,11 +71,13 @@ func addToAddressBook(contact: Contact){
                     
                 }
                 
-                success = ABRecordSetValue(newContact, kABPersonNoteProperty, "added via wildcard - getwildcard.co", &error)
+                // add a note to your contact, for example: added via app name
+                let note = ""
+                success = ABRecordSetValue(newContact, kABPersonNoteProperty, note, &error)
                 success = ABAddressBookAddRecord(adbk, newContact, &error)
                 success = ABAddressBookSave(adbk, &error)
 
-                println("Saving addressbook successful? \(success)")
+                //  println("Saving addressbook successful? \(success)")
                 
             } else {
                 println(err)
